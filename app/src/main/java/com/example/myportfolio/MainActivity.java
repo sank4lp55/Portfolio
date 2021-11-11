@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     {
         ImageView port=(ImageView)findViewById(R.id.port);
 
-        port.animate().alpha(0).setDuration(1500);
+        port.animate().alpha(0.1).setDuration(1500);
     }
 
 
